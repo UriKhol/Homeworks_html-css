@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2 уровень</title>
+</head>
+<body>
+    <style>
+       .holder a[href^=https] {
+           color: red;
+       }
+       .list > li:last-child a {
+           color: green;
+       }
+       ul + p {
+           font-size: 26px;
+       }
+    </style>
+    <div class="holder">
+        <h1>Title</h1>
+        <ul class="list">
+            <li>
+                <a href="#">link1</a>
+                <ul>
+                    <li><a href="#">link2</a></li>
+                    <li><a href="#">link3</a></li>
+                </ul>
+            </li>
+            <li><a href="https://www.youtube.com/">link4</a></li>
+            <li><a href="https://validator.w3.org/">link5</a></li>
+            <li><a href="#">link6</a></li>
+        </ul>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, accusamus.</p>
+        <h1>Title</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>

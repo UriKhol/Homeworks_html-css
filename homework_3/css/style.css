@@ -1,0 +1,26 @@
+.element{
+    width: 326px;
+    height: 181px;
+    padding: 15px 10px 20px;
+    margin: 30px;
+    border: 2px dashed red;
+    background: green;
+}
+.box{
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+}
+.lefting{
+    width: 150px;
+    height: 80px;
+    float: left;
+    padding: 0 10px 10px;
+}
+.righting{
+    width: 150px;
+    height: 80px;
+    float: right;
+    padding:10px 0 10px 10px;
+}
+

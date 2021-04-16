@@ -1,0 +1,17 @@
+body {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.bg-box {
+    width: 1000px;
+    height: 500px;
+    background: url('../img/pole-zelen-trava-dom-derevya.jpg') center / 400px auto no-repeat,
+                url('../img/lamp-png-0.png') 0 0 / 30px auto repeat-x,
+                url('../img/Ёжик.png') 0 0 / 20px auto repeat-y,
+                url('../img/58eb07b830eab15b56162788.png') 100% 0 / 20px auto repeat-y,
+                url('../img/grass-png-images-pictures-transparent-28.png') 0 100% / 230px auto repeat-x,
+                green;
+}
